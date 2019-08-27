@@ -1,8 +1,10 @@
 
 body {
   background-image: 
-url("img/20190827142151.png"),         url("img/20190826211330.png"),
-url("img/20190827125912.png"), url("img/20190826211640.png");
+url("img/20190827142151.png"),         
+url("img/20190826211330.png"),
+url("img/20190827125912.png"), 
+url("img/20190826211640.png");
 
   background-repeat: 
     no-repeat, no-repeat, 
