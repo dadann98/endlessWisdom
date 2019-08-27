@@ -1,10 +1,8 @@
 
 body {
   background-image: 
-url("img/20190827142151.png"),         
-url("img/20190826211330.png"),
-url("img/20190827125912.png"), 
-url("img/20190826211640.png");
+url("img/20190827142151.png"),         url("img/20190826211330.png"),
+url("img/20190827125912.png"), url("img/20190826211640.png");
 
   background-repeat: 
     no-repeat, no-repeat, 
@@ -15,17 +13,17 @@ fixed, fixed, fixed,fixed;
 
   background-size: 
 120% 75%,
-100% 80%,
+85% 60%,
 70% 20%,
 100% 100%;
 
   background-position: 
--25% -115%,
-0% 150%,
-140% 107%,
+-15% -80%,
+0% 105%,
+110% 103%,
 0% 0%;
 
-   background-color:#F7F7F7;
+   background-color:purple;//#F7F7F7;
 }
 
 #test {
@@ -34,12 +32,12 @@ fixed, fixed, fixed,fixed;
    font-weight: bold;
 
    position: fixed;
-   top:20px;
+   top:70px;
    left:140px;
    height: 100px;
    width: 225px;
 
    font-family: "Comic Sans MS", cursive, sans-serif;
-    //background-color: yellowgreen;
+    transform: rotate(-20deg)
   
 }
