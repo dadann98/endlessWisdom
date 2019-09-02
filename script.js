@@ -239,7 +239,7 @@ var Chopra = {
             "Det finns ingen komfort i tillväxtzonen och ingen tillväxt i komfortzonen - Okänd",
             "Ibland får du björnen, ibland får björnen dig - Zigenare ordstäv",
             "Avbryt aldrig din fiende när han gör ett misstag - Napoleon Bonaparte.",
-            "Räds mannen som har tränat 10.000 olika sparkar en gång, räds mannen som har tränat en spark 10.000 gånger. - Bruce Lee",
+            "Räds inte mannen som har tränat 10.000 olika sparkar en gång, räds mannen som har tränat en spark 10.000 gånger. - Bruce Lee",
             "Vid stora och farliga situationer får man inte tänka bara handla - Julius Caesar",
             "Ta saker som de är. Slå när du måste slå. Sparka när du måste sparka - Bruce Lee",
             "Var snäll, för alla du möter kämpar en hård kamp som du inte vet något om. Alltid.- Olika författare tillskrivs",
