@@ -1,4 +1,4 @@
-RaddEventListener('load', function(e) {
+addEventListener('load', function(e) {
   let quote = Chopra.getQuote();
 console.log(quote);
 
