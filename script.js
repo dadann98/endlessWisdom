@@ -5,9 +5,7 @@ console.log(quote);
 //document.write(quote);
 
 document.querySelector('#test').innerHTML = quote;
-
 });
-
 
 var Chopra = {
     a: [[
@@ -63,11 +61,11 @@ var Chopra = {
             "Astralplanet",
             "Det mänskliga nervsystemet",
             "Den fysiska världen",
-"Att koka te",
-"Att brygga öl",
-"Att röka pipa",
-"Nyckeln till glädje",
-"Oskuld"
+            "Att koka te",
+            "Att brygga öl",
+            "Att röka pipa",
+            "Nyckeln till glädje",
+            "Oskuld"
         ],["förlitar sig på",
             "beror på",
             "omfattar",
@@ -116,12 +114,12 @@ var Chopra = {
             "tillhör",
             "tystar",
             "förmedlar verkligheten till",
-"är grunden till",
-"lindrar",
-"är kärnan i",
-"relaterar till",
-"motsvarar",
-"härstammar från"
+            "är grunden till",
+            "lindrar",
+            "är kärnan i",
+            "relaterar till",
+            "motsvarar",
+            "härstammar från"
         ], [
             "din egen",
             "oändlig",
@@ -172,9 +170,9 @@ var Chopra = {
             "ett virvar av",
             "Dimensionslös",
             "den gradvisa utvidgningen av",
-"formlös",
-"total acceptans av",
-"oräknelig"
+            "formlös",
+            "total acceptans av",
+            "oräknelig"
         ], [
             "glädje",
             "kreativitet",
@@ -213,7 +211,7 @@ var Chopra = {
              "Självkännedom ",
              "fotoner",
              "dödlighet",
-              "odödlighet",
+             "odödlighet",
              "Tidlöshet",
              "kraftfält",
              "Ljusstyrka",
@@ -221,19 +219,26 @@ var Chopra = {
              "trollformler",
              "mänsklig observation",
              "kärlek",
-"gränser",
-"hjärnor",
-"fenomen",
-"mirakel",
-"observationer"
+             "gränser",
+             "hjärnor",
+             "fenomen",
+             "mirakel",
+             "observationer"
          ]],
-
+    var rq:[],
+  
     getQuote: function() {
-        let oa = new Array();
-        this.a.forEach (function(cur) {
+      // Liten chans att visa riktiga citat
+        var j = Math.floor(Math.random() * 10) // 0 ≤ j ≤ 10
+        if (j < 1) {
+          return array_rand(rq);
+        } else {
+          let oa = new Array();
+          this.a.forEach (function(cur) {
                     oa.push(cur[array_rand(cur)]);
-         });
-         return oa.join(' ');
+          });
+          return oa.join(' ');
+        }
     }
 }
 
