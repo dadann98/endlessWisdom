@@ -263,7 +263,7 @@ var Chopra = {
       // Liten chans att visa riktiga citat
         var j = Math.floor(Math.random() * 10) // 0 ≤ j ≤ 10
         if (j < 1) {
-          return array_rand(rq);
+          return array_rand(this.rq);
         } else {
           let oa = new Array();
           this.a.forEach (function(cur) {
