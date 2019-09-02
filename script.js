@@ -1,4 +1,4 @@
-addEventListener('load', function(e) {
+RaddEventListener('load', function(e) {
   let quote = Chopra.getQuote();
 console.log(quote);
 
@@ -262,7 +262,7 @@ var Chopra = {
     getQuote: function() {
       // Liten chans att visa riktiga citat
         var j = Math.floor(Math.random() * 10) // 0 ≤ j ≤ 10
-        if (j < 1) {
+        if (j < 2) {
           return this.rq[array_rand(this.rq)];
         } else {
           let oa = new Array();
