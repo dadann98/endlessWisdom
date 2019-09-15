@@ -248,6 +248,7 @@ var Chopra = {
             "... den svåraste aspekten av striden mellan gott och ont är att avgöra vilket som är vilket. - G.R.R. Martin",
             "Inte mindre än två timmar om dagen bör ägnas åt träning. - Thomas Jefferson",
             "Om du går igenom helvetet, fortsätt gå! - Winston Churchill",
+            "Om slåss, prata inte! Slåss!",
             "Visa dig svag när du är stark och stark när du är svag. - Sun Tzu",
             "Om du känner fienden och känner dig själv behöver du inte frukta resultatet av hundra fighter. - Sun Tzu",
             "Den högsta konsten att kriga är att besegra fienden utan att slåss. - Sun Tzu",
