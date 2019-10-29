@@ -248,7 +248,39 @@ var Chopra = {
             "... den svåraste aspekten av striden mellan gott och ont är att avgöra vilket som är vilket. - G.R.R. Martin",
             "Inte mindre än två timmar om dagen bör ägnas åt träning. - Thomas Jefferson",
             "Om du går igenom helvetet, fortsätt gå! - Winston Churchill",
-            "Om slåss, prata inte! Slåss!",
+            "Visa dig svag när du är stark och stark när du är svag. - Sun Tzu",
+            "Om du känner fienden och känner dig själv behöver du inte frukta resultatet av hundra fighter. - Sun Tzu",
+            "Den högsta konsten att kriga är att besegra fienden utan att slåss. - Sun Tzu",
+            "Om du är långt ifrån fienden, låt honom tro att du är nära. - Sun Tzu",
+            "Segern nås genom att se möjligheter i problemen. - Sun Tzu",
+            "Till och med det finaste svärdet som kastats i saltvatten rostar så småningom. - Sun Tzu",
+            "Den största segern är den som inte kräver någon strid. - Sun Tzu",
+            "Det finns ingen som gynnas av långvarig krigföring. - Sun Tzu",
+            "Svettas mer under fred för att blöda mindre under strid. - Sun Tzu",
+            "Möjligheten att besegra fienden tillhandahålls av fienden själv. - Sun Tzu"],
+  
+      rq2: ["Men hur vacker strategin än är, bör du ibland titta på resultaten - Sir Winston Churchill",
+            "Du får inte kämpa för ofta med samma fiende, annars kommer du att lära honom all din krigskonst- Napoleon Bonaparte",
+            "En bra stridsplan som du agerar på i dag kan vara bättre än en perfekt plan i morgon.- General George S. Patton",
+            "Ju mer du svettas i träning, desto mindre blöder du i striden- Richard Marcinko",
+            "På segerdagen känns ingen trötthet",
+            "Uthållighet är en av de svåraste disciplinerna, men det är till den som uthärdar som den slutliga segern kommer- Gautama B.",
+            "Det spelar ingen roll hur långsamt du går så länge du inte stannar - Konfucius",
+            "Hur kan en man dö bättre Än att inför omöjliga odds Försvara sin faders aska Och gudarnas tempel? - TB MacCauley",
+            "Framgång är inte slutgiltig, misslyckande är inte dödligt: det är modet att fortsätta som räknas. - Winston Churchill",
+            "I kampen mellan stenen och vattnet vinner vattnet alltid över tid - Japanskt ordspråk",
+            "Det finns ingen komfort i tillväxtzonen och ingen tillväxt i komfortzonen - Okänd",
+            "Ibland får du björnen, ibland får björnen dig - Zigenare ordstäv",
+            "Avbryt aldrig din fiende när han gör ett misstag - Napoleon Bonaparte.",
+            "Räds inte mannen som har tränat 10.000 olika sparkar en gång, räds mannen som har tränat en spark 10.000 gånger. - Bruce Lee",
+            "Vid stora och farliga situationer får man inte tänka bara handla - Julius Caesar",
+            "Ta saker som de är. Slå när du måste slå. Sparka när du måste sparka - Bruce Lee",
+            "Var snäll, för alla du möter kämpar en hård kamp som du inte vet något om. Alltid.- Olika författare tillskrivs",
+            "Har du fiender? Bra. Det betyder att du har stått upp för något, någon gång i ditt liv. - Winston Churchill",
+            "Svårigheter stärker sinnet, som arbetet gör kroppen - Seneca",
+            "... den svåraste aspekten av striden mellan gott och ont är att avgöra vilket som är vilket. - G.R.R. Martin",
+            "Inte mindre än två timmar om dagen bör ägnas åt träning. - Thomas Jefferson",
+            "Om du går igenom helvetet, fortsätt gå! - Winston Churchill",
             "Visa dig svag när du är stark och stark när du är svag. - Sun Tzu",
             "Om du känner fienden och känner dig själv behöver du inte frukta resultatet av hundra fighter. - Sun Tzu",
             "Den högsta konsten att kriga är att besegra fienden utan att slåss. - Sun Tzu",
@@ -263,8 +295,10 @@ var Chopra = {
     getQuote: function() {
       // Liten chans att visa riktiga citat
         var j = Math.floor(Math.random() * 10) // 0 ≤ j ≤ 10
-        if (j < 2) {
+        if (j < 3) {
           return this.rq[array_rand(this.rq)];
+        } else if (j < 5){
+          return this.rq2[array_rand(this.rq2)];
         } else {
           let oa = new Array();
           this.a.forEach (function(cur) {
